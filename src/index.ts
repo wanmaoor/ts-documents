@@ -1,4 +1,29 @@
-import { isDone } from "./basicType";
+import {
+  isDone,
+  num,
+  str,
+  arr1,
+  arr2,
+  arr3,
+  tuple,
+  c,
+  x,
+  number,
+  obj
+} from "./basicType";
 
-// basic type
-console.log(isDone);
+let app = document.querySelector("#app");
+app.innerHTML = `
+  <h1>Basic Type</h1>
+  ${isDone},
+  ${num},
+  ${str},
+  [${arr1}],
+  [${arr2}],
+  [${arr3}],
+  [${tuple}],
+  ${c},
+  ${number},
+  ${obj.name}
+`;
+x();
