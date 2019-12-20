@@ -11,7 +11,7 @@ import {
   number,
   obj
 } from "./basicType";
-
+import "./interfaces";
 let app = document.querySelector("#app");
 app.innerHTML = `
   <h1>Basic Type</h1>
